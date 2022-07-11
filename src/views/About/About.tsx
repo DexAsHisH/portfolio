@@ -8,7 +8,7 @@ export const About =() => {
   // });
     return (
         
-      <div className="main frame bg-red">about</div>
+      <div className="main frame bg-red">ABOUT MEEEEEE</div>
       
     
     );
