@@ -8,7 +8,36 @@ export const About =() => {
   // });
     return (
         
-      <div className="main frame bg-red">ABOUT MEEEEEE</div>
+      <div className="main frame bg-red">
+        <div className='topology frame'>
+
+          <div className='about'> About me</div>
+          <div className='about2'>Know me more</div>
+
+          <div className='bottom'>
+              <div className='email'>
+                <div className='bottomStyle'>email:</div>
+                <div>ashishdabral2014@gmail.com</div>
+                
+              </div>
+              <div className='contact2'>
+                <div className='bottomStyle'>contact:</div>
+                <div>7302238176</div>
+              </div>
+            </div>
+
+          <div className='details'> 
+            <div className='innerInfo'>
+              <div className='innerText heading'>Hi,I'm Ashish Dabral</div>
+              <div className='innerText'>i'm a developer, with a passion for programming. Loves to contribute in open-source, consistently ready to learn more.</div>
+            </div>
+            <div className='photo'></div>
+        
+          </div>
+          
+
+        </div>
+        </div>
       
     
     );
