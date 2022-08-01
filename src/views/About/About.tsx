@@ -27,11 +27,11 @@ export const About =() => {
             </div>
 
           <div className='details'> 
-            <div className='innerInfo'>
-              <div className='innerText heading'>Hi,I'm Ashish Dabral</div>
+            <div className='rightPart'>
+              <div className='innerText heading'>Hi,I'm <span>Ashish Dabral</span></div>
               <div className='innerText'>i'm a developer, with a passion for programming. Loves to contribute in open-source, consistently ready to learn more.</div>
             </div>
-            <div className='photo'></div>
+            <div className='leftPart'></div>
         
           </div>
           

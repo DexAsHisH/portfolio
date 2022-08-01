@@ -2,8 +2,10 @@
   display: flex;
   width: 100vw;
   height: 100vh;
-  background-image: linear-gradient(to right, #434343 0%, black 100%);
-
+  //background-image: linear-gradient(to right, #434343 0%, black 100%);
+  background: linear-gradient(to bottom, rgba(255,255,255,0.15) 0%, rgba(0,0,0,0.15) 100%), radial-gradient(at top center, rgba(255,255,255,0.40) 0%, rgba(0,0,0,0.40) 120%) #989898;
+  background-blend-mode: multiply,multiply;
+  
   justify-content: center;
   align-items: center;
 }
@@ -34,17 +36,18 @@
   width: 100%;
   margin : 5% 5%;
   
-  background: #41295a;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to left, #2F0743, #41295a);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to left, #2F0743, #41295a); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  //background: #41295a;  /* fallback for old browsers */
+  //background: -webkit-linear-gradient(to left, #2F0743, #41295a);  /* Chrome 10-25, Safari 5.1-6 */
+  //background: linear-gradient(to left, #2F0743, #41295a); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
-  box-shadow: rgba(255, 0, 0, 0.1) 0px 1px 1px 0px inset, rgba(0, 0, 255, 0.199) 0px 50px 100px -20px,rgba(200, 255, 2, 0.267) 0px 30px 60px -30px;
+  //box-shadow: rgba(255, 0, 0, 0.1) 0px 1px 1px 0px inset, rgba(0, 0, 255, 0.199) 0px 50px 100px -20px,rgba(200, 255, 2, 0.267) 0px 30px 60px -30px;
   overflow: hidden;
+  background-color: #191c26;
 
 }
 .header{
   display: flex;
-  color: antiquewhite;
+  color: white;
   justify-content: right;
   align-items: center;
   padding-right: 50px;
@@ -65,7 +68,7 @@
 }
 .profile{
   display: flex;
-  color: antiquewhite;
+  color: white;
   width: 600px;
   height: 400px;
   margin-left: 4%;
