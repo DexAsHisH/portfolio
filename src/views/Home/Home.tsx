@@ -12,7 +12,7 @@ export const Home = () => {
         <div className='container2 frame'>
 
         <div className='profile'>
-          <div className='name'>Hi,i'm Ashish Dabral
+          <div className='name'>Hi,i'm <span>Ashish Dabral</span>
 
           </div>
           <div> 
@@ -20,12 +20,14 @@ export const Home = () => {
           {text}
           <Cursor cursorStyle='_' />
           </div>
-          
-
+        
         </div>
+        
         <div className='avatar'>
           <img src={logo} />
         </div>
+        
+
       </div>
     )
 }
