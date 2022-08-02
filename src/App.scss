@@ -16,6 +16,12 @@
   width: 100%; //calc(100vw - 10%);
   min-height: 100%;
 }
+.frame2{
+  height: calc(100vh - 180px);
+  width: 100%; //calc(100vw - 10%);
+  min-height: 40%;
+
+}
 
 .scroll-hidden {
   -ms-overflow-style: none; /* for Internet Explorer, Edge */

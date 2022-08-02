@@ -1,8 +1,9 @@
 import React from 'react';
 import './App.scss';
 
-import { About , Projects, Home } from './views';
+import { About , Projects, Home, Tech } from './views';
 import { Parallax, ParallaxProvider } from "react-scroll-parallax";
+
 
 
 function App() {
@@ -24,6 +25,7 @@ function App() {
 
           <Home/>
           <About/>
+          <Tech/>
           <Projects/>
 
         </div>
